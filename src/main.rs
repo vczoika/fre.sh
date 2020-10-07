@@ -1,12 +1,10 @@
-// This main file gets all the information needed.
-// When run, it creates a new file called fre.sh
-// Every cargo run WILL OVERWRITE the file with new information.
 use std::fs::File;
 use std::io::prelude::*;
 
 fn main() -> std::io::Result<()> {
     let mut file = File::create("fre.sh")?;
-    file.write_all(b"chmod +x fre.sh
+    file.write_all(
+    b"chmod +x fre.sh
     echo \"Hello friend. Hello friend? That\'s lame. Maybe I should give you a name.\"
     sleep 3
     yes | sudo apt-get update
