@@ -21,3 +21,5 @@ cargo run
 - [ ] Push all the main features
 - [ ] Add support for others distros
 - [ ] Add support for *Windows*?
+
+![Vczoika's github stats](https://github-readme-stats.vercel.app/api?username=vczoika&show_icons=true&theme=radical)
